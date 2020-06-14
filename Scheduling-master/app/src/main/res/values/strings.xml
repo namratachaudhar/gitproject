@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Scheduling</string>
+    <string name="phone">Phone:</string>
+    <string name="address">Address:</string>
+    <string name="professionals">Professionals</string>
+    <string name="available_time_label">Available time on:</string>
+    <string name="today">Today</string>
+    <string name="available">Available</string>
+    <string name="busy">busy</string>
+    <string name="chosen_time">%s was successfully chosen</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="user_greeting">Hello there, do the sign in and schedule a professional easily!</string>
+    <string name="user_logged">Hello %s!</string>
+    <string name="loading">Loading…</string>
+    <string name="title_widget_today">Today Schedule</string>
+    <string name="authentication_failed">Authentication failed.</string>
+
+    <string name="empty_schedule_list">You have to login to see your schedule!</string>
+</resources>

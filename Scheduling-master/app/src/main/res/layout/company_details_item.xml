@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="start"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/black_54A"
+        android:textSize="14sp"
+        tools:text="Paula" />
+
+    <TextView
+        android:id="@+id/txt_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_toEndOf="@+id/txt_name"
+        android:layout_toLeftOf="@+id/txt_scheduling"
+        android:layout_toRightOf="@+id/txt_name"
+        android:layout_toStartOf="@+id/txt_scheduling"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@color/black_54A"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="@string/today" />
+
+    <TextView
+        android:id="@+id/txt_scheduling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/available"
+        android:textAlignment="gravity"
+        android:textColor="@color/black_54A"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="8am | 11 am | 2pm | 6 pm  8am 8am " />
+
+
+</RelativeLayout>
